@@ -80,7 +80,59 @@
                 <hr />
             </div>
             <div class="col-md-10">
-                Form goes here
+                <form>
+                    <div class="form-group row">
+                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" name="firstName" placeholder="First Name" id="firstName" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" name="lastName" placeholder="Last Name" id="lastName" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" name="areaCode" placeholder="Area Code" id="areaCode" class="form-control">
+                        </div>
+                        <div class="col-7">
+                            <input type="tel" name="telNum" placeholder="Tel. Number" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" name="email" placeholder="Email" id="email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col offset-md-2">
+                            May we contact you?
+                            <div class="form-check form-check-inline">
+                                <input type="radio" name="contactRadios" value="yes" id="contactYes" class="form-check-input">
+                                <label for="contactYes" class="col-form-label"> Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" name="contactRadios" value="no" id="contactNo" class="form-check-input">
+                                <label for="contactNo" class="col-form-label"> No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                        <div class="col-md-10">
+                            <textarea name="feedback" rows="8" id="feedback" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                        </div>
+                    </div>
+                </form>
             </div>
        </div>
 
