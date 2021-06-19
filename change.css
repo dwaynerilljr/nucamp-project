@@ -1,0 +1,81 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    color: #08386b;
+}
+
+h3 {
+    color: #6edc95;
+}
+
+header h2 {
+    color: #6edc95;
+}
+
+.site-footer {
+    background-image: linear-gradient(white, #6edc95);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #6edc95, #08386B);
+    color: white;
+    margin: 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #08386B;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #6edc95;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #6EDC95;
+}
+
+.navbar-toggler-icon button {
+    color: black;
+    background-color: white;
+}
+
+.btn-lg {
+    background-color: #08386b;
+}
+
+.btn-lg:hover {
+    background-color: white;
+}
+
+.btn-lg {
+    color: #6edc95;
+}
